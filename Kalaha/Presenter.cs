@@ -7,6 +7,7 @@
 // The presenter is implemented as a singleton that is available throughout the source "space".
 //
 
+
 #region Using
 
 using Kalaha.Model;
