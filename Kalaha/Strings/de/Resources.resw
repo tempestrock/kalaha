@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonBackToGame.Content" xml:space="preserve">
+    <value>Zurück zum Spiel</value>
+    <comment>Der Button auf der "snapped"-Seite</comment>
+  </data>
+  <data name="ButtonContinue.Content" xml:space="preserve">
+    <value>Weiterspielen</value>
+    <comment>Beschriftung des Weiterspielen-Knopfes</comment>
+  </data>
+  <data name="ButtonRemoveAds.Content" xml:space="preserve">
+    <value>Werbung ausblenden</value>
+    <comment>Knopf zum Kaufen der "NoAds"-Option</comment>
+  </data>
+  <data name="ButtonStart.Content" xml:space="preserve">
+    <value>Start</value>
+    <comment>Beschriftung des Start-Knopfes</comment>
+  </data>
+  <data name="ButtonStart.Width" xml:space="preserve">
+    <value>150</value>
+    <comment>Breite des Start-Knopfes</comment>
+  </data>
+  <data name="Label_Cancel.Content" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>"Abbrechen"-Button-Beschriftung</comment>
+  </data>
+  <data name="Label_CaptureType" xml:space="preserve">
+    <value>Wie wird kassiert</value>
+    <comment>Beschriftung für die Kassier-Regeln</comment>
+  </data>
+  <data name="Label_CaptureType_0" xml:space="preserve">
+    <value>Standard</value>
+    <comment>Eine der Kassier-Regeln</comment>
+  </data>
+  <data name="Label_CaptureType_1" xml:space="preserve">
+    <value>"Empty Capture"</value>
+    <comment>Eine der Kassier-Regeln</comment>
+  </data>
+  <data name="Label_CaptureType_2" xml:space="preserve">
+    <value>Nie</value>
+    <comment>Eine der Kassier-Regeln</comment>
+  </data>
+  <data name="Label_CaptureType_3" xml:space="preserve">
+    <value>Immer</value>
+    <comment>Eine der Kassier-Regeln</comment>
+  </data>
+  <data name="Label_ColumnHeaderGameBoard" xml:space="preserve">
+    <value>Spielbrett</value>
+    <comment>Die "Spielbrett"-Überschrift auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ColumnHeaderPlayerNorth" xml:space="preserve">
+    <value>Norden</value>
+    <comment>Der Nord-Spieler</comment>
+  </data>
+  <data name="Label_ColumnHeaderPlayerSouth" xml:space="preserve">
+    <value>Süden</value>
+    <comment>Der Süd-Spieler</comment>
+  </data>
+  <data name="Label_ColumnHeaderRules" xml:space="preserve">
+    <value>Regeln</value>
+    <comment>Der Titel des "Regeln"-Abschnitts in den Einstellungen</comment>
+  </data>
+  <data name="Label_ColumnHeaderThemes" xml:space="preserve">
+    <value>Motive</value>
+    <comment>Die "Motive"-Überschrift auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ComputerEasy" xml:space="preserve">
+    <value>simpel</value>
+    <comment>Bezeichnung für die Stärke des Computerspielers</comment>
+  </data>
+  <data name="Label_ComputerHard" xml:space="preserve">
+    <value>sauschwer</value>
+    <comment>Bezeichnung für die Stärke des Computerspielers</comment>
+  </data>
+  <data name="Label_ComputerMedium" xml:space="preserve">
+    <value>schwer</value>
+    <comment>Bezeichnung für die Stärke des Computerspielers</comment>
+  </data>
+  <data name="Label_DirOfSowing_0" xml:space="preserve">
+    <value>gegen den Uhrzeigersinn</value>
+    <comment>Einer "Regeln"-Einstellungen</comment>
+  </data>
+  <data name="Label_DirOfSowing_1" xml:space="preserve">
+    <value>im Uhrzeigersinn</value>
+    <comment>Einer "Regeln"-Einstellungen</comment>
+  </data>
+  <data name="Label_DirOfSowing_2" xml:space="preserve">
+    <value>"Cross-Kalah"</value>
+    <comment>Einer "Regeln"-Einstellungen</comment>
+  </data>
+  <data name="Label_GameBoardTitle.Text" xml:space="preserve">
+    <value>Spielbrett</value>
+    <comment>Der Titel des "Spielbrett"-Abschnitts in den Einstellungen</comment>
+  </data>
+  <data name="Label_NumPitsPerPlayer.Width" xml:space="preserve">
+    <value>245</value>
+    <comment>Die Breite der Beschriftung</comment>
+  </data>
+  <data name="Label_NumSeedsInEachPit.Width" xml:space="preserve">
+    <value>300</value>
+    <comment>Die Breite der Beschriftung</comment>
+  </data>
+  <data name="Label_OK.Content" xml:space="preserve">
+    <value>OK</value>
+    <comment>"OK"-Button-Beschriftung</comment>
+  </data>
+  <data name="Label_PlayAgain.Text" xml:space="preserve">
+    <value>Zusatzzug wenn letztes Samenkorn in eigener Kalah</value>
+    <comment>Eine der Regeln</comment>
+  </data>
+  <data name="Label_PlayerName.Text" xml:space="preserve">
+    <value>Name:</value>
+    <comment>Eine Beschriftung im "Spieler"-Abschnitt</comment>
+  </data>
+  <data name="Label_PlayerSelectionHuman" xml:space="preserve">
+    <value>Mensch</value>
+    <comment>Eine der "Spieler"-Einstellungen</comment>
+  </data>
+  <data name="Label_PlayerTitle.Text" xml:space="preserve">
+    <value>Spieler</value>
+    <comment>Der Titel des "Spieler"-Abschnitts in den Einstellungen</comment>
+  </data>
+  <data name="Label_Rule_CaptureSeedsAtEnd" xml:space="preserve">
+    <value>Samenkörner am Ende einsammeln</value>
+    <comment>Eine der Regeln</comment>
+  </data>
+  <data name="Label_Rule_PieRule" xml:space="preserve">
+    <value>"Pie Rule"</value>
+    <comment>Eine der Regeln</comment>
+  </data>
+  <data name="Label_SelectNamePlayer.Text" xml:space="preserve">
+    <value>Neuer Name:</value>
+    <comment>Eingabe eines neuen Namens</comment>
+  </data>
+  <data name="Label_SelectNumHouses" xml:space="preserve">
+    <value>Anzahl Mulden</value>
+    <comment>Eine Beschriftung im "Spielbrett"-Abschnitt</comment>
+  </data>
+  <data name="Label_SelectNumSeeds" xml:space="preserve">
+    <value>Anzahl Samenkörner</value>
+    <comment>Eine Beschriftung im "Spielbrett"-Abschnitt</comment>
+  </data>
+  <data name="Label_SelectSowingDirection" xml:space="preserve">
+    <value>Richtung der Aussaat</value>
+    <comment>Eine der Regeln</comment>
+  </data>
+  <data name="Label_SelectSpeciesPlayer" xml:space="preserve">
+    <value>Wer soll's sein</value>
+    <comment>Beschriftung über der Spielergattung (Mensch oder Computer)</comment>
+  </data>
+  <data name="Label_South.Width" xml:space="preserve">
+    <value>110</value>
+    <comment>Die Breite der Beschriftung</comment>
+  </data>
+  <data name="Label_Species.Text" xml:space="preserve">
+    <value>Gattung:</value>
+    <comment>"Gattung"meint Mensch oder Computer</comment>
+  </data>
+  <data name="Label_ThemeNameHighContrast" xml:space="preserve">
+    <value>Kontrast</value>
+    <comment>Eine Motivbezeichnung auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameHighContrastSubtitle" xml:space="preserve">
+    <value>für das schwache Auge</value>
+    <comment>Ein Motivuntertitel auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameSpring" xml:space="preserve">
+    <value>Frühling</value>
+    <comment>Eine Motivbezeichnung auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameSpringSubtitle" xml:space="preserve">
+    <value>für Blumenliebhaber</value>
+    <comment>Ein Motivuntertitel auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameSummerOnTheBeach" xml:space="preserve">
+    <value>Sommer am Strand</value>
+    <comment>Eine Motivbezeichnung auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameSummerOnTheBeachSubtitle" xml:space="preserve">
+    <value>eine sandige Angelegenheit</value>
+    <comment>Ein Motivuntertitel auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameWood" xml:space="preserve">
+    <value>Holz</value>
+    <comment>Eine Motivbezeichnung auf der Einstellungsseite</comment>
+  </data>
+  <data name="Label_ThemeNameWoodSubtitle" xml:space="preserve">
+    <value>der Klassiker</value>
+    <comment>Ein Motivuntertitel auf der Einstellungsseite</comment>
+  </data>
+  <data name="MainPage.FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Schriftrichtung</comment>
+  </data>
+  <data name="NameOfGame.Text" xml:space="preserve">
+    <value>Ultimate Kalaha</value>
+    <comment>Der Name des Spiels</comment>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Spieler {0}</value>
+    <comment>0: Nummer des Spielers</comment>
+  </data>
+  <data name="Radio_North_Computer.Content" xml:space="preserve">
+    <value>Computer</value>
+    <comment>Eine der "Spieler"-Einstellungen</comment>
+  </data>
+  <data name="Radio_South_Computer.Content" xml:space="preserve">
+    <value>Computer</value>
+    <comment>Eine der "Spieler"-Einstellungen</comment>
+  </data>
+  <data name="Radio_South_Human.Content" xml:space="preserve">
+    <value>Mensch</value>
+    <comment>Eine der "Spieler"-Einstellungen</comment>
+  </data>
+  <data name="Theme_HighContrast" xml:space="preserve">
+    <value>HighContrast</value>
+    <comment>Name, unter dem das kontrastreiche Motiv im "Themes"-Verzeichnis zu finden ist</comment>
+  </data>
+  <data name="Theme_Spring" xml:space="preserve">
+    <value>Spring</value>
+    <comment>Name, unter dem das Schaf-Motiv im "Themes"-Verzeichnis zu finden ist</comment>
+  </data>
+  <data name="Theme_SummerOnTheBeach" xml:space="preserve">
+    <value>SummerOnTheBeach</value>
+    <comment>Name, unter dem das Strand-Motiv im "Themes"-Verzeichnis zu finden ist</comment>
+  </data>
+  <data name="Theme_Wood" xml:space="preserve">
+    <value>Wood</value>
+    <comment>Name, unter dem das Holz-Motiv im "Themes"-Verzeichnis zu finden ist</comment>
+  </data>
+  <data name="Tooltip_GamePage_BackButton" xml:space="preserve">
+    <value>Zurück zur Übersicht</value>
+    <comment>Tooltip für den "zurück"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_GamePage_NumberFieldOffButton" xml:space="preserve">
+    <value>Anzahl pro Mulde soll eingeblendet werden</value>
+    <comment>Tooltip für den "Anzahl aus"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_GamePage_NumberFieldOnButton" xml:space="preserve">
+    <value>Anzahl pro Mulde soll ausgeblendet werden</value>
+    <comment>Tooltip für den "Anzahl ein"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_GamePage_PlayAgainButton" xml:space="preserve">
+    <value>Noch einmal spielen</value>
+    <comment>Tooltip für den "nochmal"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_GamePage_PlayerPositionOppositeSidesButton" xml:space="preserve">
+    <value>Ihr wollt nebeneinander sitzen</value>
+    <comment>Tooltip für den "Spieler gegenüber"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_GamePage_PlayerPositionSameSideButton" xml:space="preserve">
+    <value>Ihr wollt euch gegenüber sitzen</value>
+    <comment>Tooltip für den "Spieler nebeneinander"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_GamePage_UndoButton" xml:space="preserve">
+    <value>Zug rückgängig machen</value>
+    <comment>Tooltip für den "undo"-Knopf auf der Spielseite</comment>
+  </data>
+  <data name="Tooltip_HubPage_ContinueButton" xml:space="preserve">
+    <value>Laufendes Spiel fortsetzen</value>
+    <comment>Tooltip für den "Weiterspielen"-Knopf auf der Einstellungsseite</comment>
+  </data>
+  <data name="Tooltip_HubPage_StartButton" xml:space="preserve">
+    <value>Neues Spiel starten</value>
+    <comment>Tooltip für den "Start"-Knopf auf der Einstellungsseite</comment>
+  </data>
+</root>
