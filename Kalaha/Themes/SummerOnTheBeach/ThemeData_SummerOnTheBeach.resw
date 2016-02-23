@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ComputerEasyName" xml:space="preserve">
+    <value>Computer</value>
+    <comment>The name of the easy computer player</comment>
+  </data>
+  <data name="ComputerHardName" xml:space="preserve">
+    <value>Computer</value>
+    <comment>The name of the hard computer player</comment>
+  </data>
+  <data name="ComputerMediumName" xml:space="preserve">
+    <value>Computer</value>
+    <comment>The name of the medium computer player</comment>
+  </data>
+  <data name="CoordinateOfNorthernHousesY" xml:space="preserve">
+    <value>300</value>
+    <comment>The y-coordinate of the northern houses' centers</comment>
+  </data>
+  <data name="CoordinateOfSouthernHousesY" xml:space="preserve">
+    <value>700</value>
+    <comment>The y-coordinate of the southern houses' centers</comment>
+  </data>
+  <data name="DeviationOfNumberFieldHouseNorthX" xml:space="preserve">
+    <value>0</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding house.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldHouseNorthY" xml:space="preserve">
+    <value>-115</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding pit.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldHouseSouthX" xml:space="preserve">
+    <value>0</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding house.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldHouseSouthY" xml:space="preserve">
+    <value>115</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding pit.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldKalahNorthX" xml:space="preserve">
+    <value>-50</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding Kalah.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldKalahNorthY" xml:space="preserve">
+    <value>-115</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding Kalah.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldKalahSouthX" xml:space="preserve">
+    <value>50</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding Kalah.</comment>
+  </data>
+  <data name="DeviationOfNumberFieldKalahSouthY" xml:space="preserve">
+    <value>115</value>
+    <comment>May be negative, 0, or positive, defining where the number of seeds is shown relative to the corresponding Kalah.</comment>
+  </data>
+  <data name="DistBetweenPits" xml:space="preserve">
+    <value>10</value>
+    <comment>Distance between two pits (on the basis of the "1000-page")</comment>
+  </data>
+  <data name="HouseFrameThicknessX" xml:space="preserve">
+    <value>19</value>
+    <comment>X The thickness of the frame in x direction that needs to be taken into account the positioning the seeds</comment>
+  </data>
+  <data name="HouseFrameThicknessY" xml:space="preserve">
+    <value>33</value>
+    <comment>X The thickness of the frame in y direction that needs to be taken into account the positioning the seeds</comment>
+  </data>
+  <data name="HouseImageHeight" xml:space="preserve">
+    <value>184</value>
+    <comment>The height of the house image (on the basis of the "1000-page")</comment>
+  </data>
+  <data name="HouseImageWidth" xml:space="preserve">
+    <value>115</value>
+    <comment>The width of the house image (on the basis of the "1000-page")</comment>
+  </data>
+  <data name="KalahImageHeight" xml:space="preserve">
+    <value>184</value>
+    <comment>The height of the Kalah image (on the basis of the "1000-page")</comment>
+  </data>
+  <data name="KalahImageWidth" xml:space="preserve">
+    <value>180</value>
+    <comment>The width of the Kalah image (on the basis of the "1000-page")</comment>
+  </data>
+  <data name="KalahPosition" xml:space="preserve">
+    <value>middle</value>
+    <comment>The definition whether the Kalah image is to be positioned in the middle ("middle") of the picture or at the outer edges ("outside").</comment>
+  </data>
+  <data name="PlayerNamePosNorthX" xml:space="preserve">
+    <value>400</value>
+    <comment>The northern player's name position (1000-page)</comment>
+  </data>
+  <data name="PlayerNamePosNorthY" xml:space="preserve">
+    <value>55</value>
+    <comment>The northern player's name position (1000-page)</comment>
+  </data>
+  <data name="PlayerNamePosSouthX" xml:space="preserve">
+    <value>400</value>
+    <comment>The southern player's name position (1000-page)</comment>
+  </data>
+  <data name="PlayerNamePosSouthY" xml:space="preserve">
+    <value>880</value>
+    <comment>The southern player's name position (1000-page)</comment>
+  </data>
+  <data name="RotateSeedImagesAtStart" xml:space="preserve">
+    <value>false</value>
+    <comment>A flag whether to rotate the seed images when a game starts. May be "true" or "false".</comment>
+  </data>
+  <data name="SeedImageAmount" xml:space="preserve">
+    <value>1</value>
+    <comment>The number of seed images (for each the width and height must be available as well as an image "Seed_i.png" with i being a number between 1 and "SeedImageAmount").</comment>
+  </data>
+  <data name="SeedImageHeight_1" xml:space="preserve">
+    <value>38</value>
+    <comment>The height of the first seed image</comment>
+  </data>
+  <data name="SeedImageWidth_1" xml:space="preserve">
+    <value>15</value>
+    <comment>The width of the first seed image</comment>
+  </data>
+  <data name="TimeForSeedMove" xml:space="preserve">
+    <value>250</value>
+    <comment>The time to be used in milliseconds for a move of a seed from one pit to another.</comment>
+  </data>
+  <data name="UseFlappingInSeedAnimation" xml:space="preserve">
+    <value>false</value>
+    <comment>Use an additional "flapping" effect to the animation of moving a seed from one pit to another. May be "true" or "false".</comment>
+  </data>
+  <data name="VisualIndicatorHeight" xml:space="preserve">
+    <value>74</value>
+    <comment>The height of the visual indicator (starfish)</comment>
+  </data>
+  <data name="VisualIndicatorPosNorthY" xml:space="preserve">
+    <value>45</value>
+    <comment>The position of the northern visual indicator (1000-page)</comment>
+  </data>
+  <data name="VisualIndicatorPosSouthY" xml:space="preserve">
+    <value>870</value>
+    <comment>The position of the southern visual indicator (1000-page)</comment>
+  </data>
+  <data name="VisualIndicatorWidth" xml:space="preserve">
+    <value>42</value>
+    <comment>The width of the visual indicator (starfish)</comment>
+  </data>
+</root>

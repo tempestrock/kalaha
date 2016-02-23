@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonBackToGame.Content" xml:space="preserve">
+    <value>Back to the Game</value>
+    <comment>The button on the "snapped" page</comment>
+  </data>
+  <data name="ButtonContinue.Content" xml:space="preserve">
+    <value>Continue Game</value>
+    <comment>Contents of continue button</comment>
+  </data>
+  <data name="ButtonRemoveAds.Content" xml:space="preserve">
+    <value>Remove Ads</value>
+    <comment>Button to purchase the "NoAds" option</comment>
+  </data>
+  <data name="ButtonStart.Content" xml:space="preserve">
+    <value>Start Game</value>
+    <comment>Contents of start button</comment>
+  </data>
+  <data name="ButtonStart.Width" xml:space="preserve">
+    <value>200</value>
+    <comment>Width of start button</comment>
+  </data>
+  <data name="Label_Cancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>"Cancel" button</comment>
+  </data>
+  <data name="Label_CaptureType" xml:space="preserve">
+    <value>Type of capture</value>
+    <comment>Label for the capture rules</comment>
+  </data>
+  <data name="Label_CaptureType_0" xml:space="preserve">
+    <value>Standard</value>
+    <comment>One of the capture rules</comment>
+  </data>
+  <data name="Label_CaptureType_1" xml:space="preserve">
+    <value>Empty Capture</value>
+    <comment>One of the capture rules</comment>
+  </data>
+  <data name="Label_CaptureType_2" xml:space="preserve">
+    <value>Never</value>
+    <comment>One of the capture rules</comment>
+  </data>
+  <data name="Label_CaptureType_3" xml:space="preserve">
+    <value>Always</value>
+    <comment>One of the capture rules</comment>
+  </data>
+  <data name="Label_ColumnHeaderGameBoard" xml:space="preserve">
+    <value>Game Board</value>
+    <comment>The "Game Board" header on the settings page</comment>
+  </data>
+  <data name="Label_ColumnHeaderPlayerNorth" xml:space="preserve">
+    <value>North</value>
+    <comment>The North player</comment>
+  </data>
+  <data name="Label_ColumnHeaderPlayerSouth" xml:space="preserve">
+    <value>South</value>
+    <comment>The South player</comment>
+  </data>
+  <data name="Label_ColumnHeaderRules" xml:space="preserve">
+    <value>Rules</value>
+    <comment>The title of the "Rules" section in the settings</comment>
+  </data>
+  <data name="Label_ColumnHeaderThemes" xml:space="preserve">
+    <value>Themes</value>
+    <comment>The "themes" header on the settings page</comment>
+  </data>
+  <data name="Label_ComputerEasy" xml:space="preserve">
+    <value>simple</value>
+    <comment>Wording for the strength of a computer player</comment>
+  </data>
+  <data name="Label_ComputerHard" xml:space="preserve">
+    <value>top expert</value>
+    <comment>Wording for the strength of a computer player</comment>
+  </data>
+  <data name="Label_ComputerMedium" xml:space="preserve">
+    <value>better</value>
+    <comment>Wording for the strength of a computer player</comment>
+  </data>
+  <data name="Label_DirOfSowing_0" xml:space="preserve">
+    <value>counter-clockwise</value>
+    <comment>One of the "Rules" settings</comment>
+  </data>
+  <data name="Label_DirOfSowing_1" xml:space="preserve">
+    <value>clockwise</value>
+    <comment>One of the "Rules" settings</comment>
+  </data>
+  <data name="Label_DirOfSowing_2" xml:space="preserve">
+    <value>"Cross-Kalah"</value>
+    <comment>One of the "Rules" settings</comment>
+  </data>
+  <data name="Label_GameBoardTitle.Text" xml:space="preserve">
+    <value>Game Board</value>
+    <comment>The title of the "Game Board" section in the settings</comment>
+  </data>
+  <data name="Label_NumPitsPerPlayer.Width" xml:space="preserve">
+    <value>190</value>
+    <comment>The width of the label</comment>
+  </data>
+  <data name="Label_NumSeedsInEachPit.Width" xml:space="preserve">
+    <value>190</value>
+    <comment>The width of the label</comment>
+  </data>
+  <data name="Label_OK.Content" xml:space="preserve">
+    <value>OK</value>
+    <comment>"OK" button</comment>
+  </data>
+  <data name="Label_PlayAgain.Text" xml:space="preserve">
+    <value>Play again when last seed in own Kalah</value>
+    <comment>One of the rules</comment>
+  </data>
+  <data name="Label_PlayerName.Text" xml:space="preserve">
+    <value>Name:</value>
+    <comment>A label in the "Players" settings</comment>
+  </data>
+  <data name="Label_PlayerSelectionHuman" xml:space="preserve">
+    <value>human</value>
+    <comment>One of the "Player" settings</comment>
+  </data>
+  <data name="Label_PlayerTitle.Text" xml:space="preserve">
+    <value>Players</value>
+    <comment>The title of the "Players" section in the settings</comment>
+  </data>
+  <data name="Label_Rule_CaptureSeedsAtEnd" xml:space="preserve">
+    <value>Capture seeds at the end of the game</value>
+    <comment>One of the rules</comment>
+  </data>
+  <data name="Label_Rule_PieRule" xml:space="preserve">
+    <value>Pie Rule</value>
+    <comment>One of the rules</comment>
+  </data>
+  <data name="Label_SelectNamePlayer.Text" xml:space="preserve">
+    <value>Enter name: </value>
+    <comment>Entering a player's new name</comment>
+  </data>
+  <data name="Label_SelectNumHouses" xml:space="preserve">
+    <value>Number of houses</value>
+    <comment>A label in the "Game Board" settings</comment>
+  </data>
+  <data name="Label_SelectNumSeeds" xml:space="preserve">
+    <value>Number of seeds</value>
+    <comment>A label in the "Game Board" settings</comment>
+  </data>
+  <data name="Label_SelectSowingDirection" xml:space="preserve">
+    <value>Direction of sowing</value>
+    <comment>One of the rules</comment>
+  </data>
+  <data name="Label_SelectSpeciesPlayer" xml:space="preserve">
+    <value>Select species</value>
+    <comment>Label above the player's species on the settings page</comment>
+  </data>
+  <data name="Label_South.Width" xml:space="preserve">
+    <value>110</value>
+    <comment>The width of the label</comment>
+  </data>
+  <data name="Label_Species.Text" xml:space="preserve">
+    <value>Species:</value>
+    <comment>"Species" can be human or computer</comment>
+  </data>
+  <data name="Label_ThemeNameHighContrast" xml:space="preserve">
+    <value>High Contrast</value>
+    <comment>A theme's label on the hub page</comment>
+  </data>
+  <data name="Label_ThemeNameHighContrastSubtitle" xml:space="preserve">
+    <value>for an easy view</value>
+    <comment>A theme's subtitle on the hub page</comment>
+  </data>
+  <data name="Label_ThemeNameSpring" xml:space="preserve">
+    <value>Spring</value>
+    <comment>A theme's label on the hub page</comment>
+  </data>
+  <data name="Label_ThemeNameSpringSubtitle" xml:space="preserve">
+    <value>for flower lovers</value>
+    <comment>A theme's subtitle on the hub page</comment>
+  </data>
+  <data name="Label_ThemeNameSummerOnTheBeach" xml:space="preserve">
+    <value>Summer on the Beach</value>
+    <comment>A theme's label on the settings page</comment>
+  </data>
+  <data name="Label_ThemeNameSummerOnTheBeachSubtitle" xml:space="preserve">
+    <value>it's sandy </value>
+    <comment>A theme's subtitle on the hub page</comment>
+  </data>
+  <data name="Label_ThemeNameWood" xml:space="preserve">
+    <value>Wood</value>
+    <comment>A theme's label on the hub page</comment>
+  </data>
+  <data name="Label_ThemeNameWoodSubtitle" xml:space="preserve">
+    <value>the classic theme</value>
+    <comment>A theme's subtitle on the hub page</comment>
+  </data>
+  <data name="MainPage.FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Direction of writing</comment>
+  </data>
+  <data name="NameOfGame.Text" xml:space="preserve">
+    <value>Ultimate Kalaha</value>
+    <comment>The name of the game</comment>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player #{0}</value>
+    <comment>0: player's number</comment>
+  </data>
+  <data name="Radio_North_Computer.Content" xml:space="preserve">
+    <value>computer</value>
+    <comment>One of the "Player" settings</comment>
+  </data>
+  <data name="Radio_South_Computer.Content" xml:space="preserve">
+    <value>computer</value>
+    <comment>One of the "Player" settings</comment>
+  </data>
+  <data name="Radio_South_Human.Content" xml:space="preserve">
+    <value>human</value>
+    <comment>One of the "Player" settings</comment>
+  </data>
+  <data name="Theme_HighContrast" xml:space="preserve">
+    <value>HighContrast</value>
+    <comment>Name of the high-contrast theme in the "Themes" directory</comment>
+  </data>
+  <data name="Theme_Spring" xml:space="preserve">
+    <value>Spring</value>
+    <comment>Name of the sheepish theme in the "Themes" directory</comment>
+  </data>
+  <data name="Theme_SummerOnTheBeach" xml:space="preserve">
+    <value>SummerOnTheBeach</value>
+    <comment>Name of the sandy theme in the "Themes" directory</comment>
+  </data>
+  <data name="Theme_Wood" xml:space="preserve">
+    <value>Wood</value>
+    <comment>Name of the woody theme in the "Themes" directory</comment>
+  </data>
+  <data name="Tooltip_GamePage_BackButton" xml:space="preserve">
+    <value>Back to the overview page</value>
+    <comment>Tooltip for "back" button on the game page</comment>
+  </data>
+  <data name="Tooltip_GamePage_NumberFieldOffButton" xml:space="preserve">
+    <value>Numbers of "seeds" shall be visible</value>
+    <comment>Tooltip for "numbers is off" button on the game page</comment>
+  </data>
+  <data name="Tooltip_GamePage_NumberFieldOnButton" xml:space="preserve">
+    <value>Numbers of "seeds" shall be invisible</value>
+    <comment>Tooltip for "numbers is on" button on the game page</comment>
+  </data>
+  <data name="Tooltip_GamePage_PlayAgainButton" xml:space="preserve">
+    <value>Play again</value>
+    <comment>Tooltip for "play again" button on the game page</comment>
+  </data>
+  <data name="Tooltip_GamePage_PlayerPositionOppositeSidesButton" xml:space="preserve">
+    <value>You want to sit next to each other</value>
+    <comment>Tooltip for "opposite sides" button on the game page</comment>
+  </data>
+  <data name="Tooltip_GamePage_PlayerPositionSameSideButton" xml:space="preserve">
+    <value>You want to sit on opposite sides</value>
+    <comment>Tooltip for "same side" button on the game page</comment>
+  </data>
+  <data name="Tooltip_GamePage_UndoButton" xml:space="preserve">
+    <value>Undo the move</value>
+    <comment>Tooltip for "undo" button on the game page</comment>
+  </data>
+  <data name="Tooltip_HubPage_ContinueButton" xml:space="preserve">
+    <value>Continue the previous game</value>
+    <comment>Tooltip for "continue" button on the hub page</comment>
+  </data>
+  <data name="Tooltip_HubPage_StartButton" xml:space="preserve">
+    <value>Start a new game</value>
+    <comment>Tooltip for "start" button on the hub page</comment>
+  </data>
+</root>
